@@ -12,6 +12,7 @@ const UseStateArray = () => {
   }
   return (
     <div>
+      <h2>useState hook array example</h2>
       {people.map((person) => {
         const { id, name } = person;
         return (
