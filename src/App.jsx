@@ -5,6 +5,7 @@ import UseStateObject from "./usestate/usestateObject";
 import UsestateGotcha from "./usestate/usestateGotcha";
 import UseEffectsBasics from "./useeffecthook/useEffectsBasic";
 import FetchData from "./useeffecthook/fetchdata";
+import MultiplReturnsFetchData from "./useeffecthook/multiplReturnsFetchData";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
       <UsestateGotcha />
       <UseEffectsBasics />
       <FetchData />
+      <MultiplReturnsFetchData />
     </>
   );
 };

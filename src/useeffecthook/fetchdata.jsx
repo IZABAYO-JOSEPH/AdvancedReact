@@ -16,7 +16,7 @@ const FetchData = () => {
   }, []);
   return (
     <section>
-      <h3> Github users</h3>
+      <h3> Github users useEffect hook mini project</h3>
       <ul className="users">
         {users.map((user) => { 
            const { id, login, avatar_url, html_url } = user;
