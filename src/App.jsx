@@ -7,6 +7,8 @@ import UseEffectsBasics from "./useeffecthook/useEffectsBasic";
 import FetchData from "./useeffecthook/fetchdata";
 import MultiplReturnsFetchData from "./useeffecthook/multiplReturnsFetchData";
 import ShortCircuits from "./usestate/short_circuits";
+import ToggleAlert from "./usestate/toggleAlert";
+import UserChallenge from "./usestate/userChallenge";
 const App = () => {
   return (
     <>
@@ -18,6 +20,8 @@ const App = () => {
       <FetchData />
       <MultiplReturnsFetchData />
       <ShortCircuits />
+      <ToggleAlert />
+      <UserChallenge />
     </>
   );
 };

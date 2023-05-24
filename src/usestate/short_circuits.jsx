@@ -4,7 +4,7 @@ const ShortCircuits = () => {
    const[text, setText] = useState('') 
    const[name, setName] = useState('Joseph')
    const[user, setUser] = useState({name:'Joseph'})
-   const[isEditing,setIsEditing] = useState(false)
+   const[isEditing,setIsEditing] = useState(true)
   return (
     <div>
         <h4>Truthy and falsy values demo</h4>
