@@ -18,7 +18,9 @@ const ShortCircuits = () => {
         )
        }
        {user && <SomeComponent name={user.name} />}
-        </div>
+       <h2 style={{margin:'1rem 0'}}>Ternary operator</h2>
+       <button className="btn">{isEditing?'Edit':'Add'}</button>
+       </div>
   )
 }
 const SomeComponent = ({name})=>{
