@@ -9,6 +9,7 @@ import MultiplReturnsFetchData from "./useeffecthook/multiplReturnsFetchData";
 import ShortCircuits from "./usestate/short_circuits";
 import ToggleAlert from "./usestate/toggleAlert";
 import UserChallenge from "./usestate/userChallenge";
+import ControlledInputs from "./reactforms/controlledInputs";
 const App = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const App = () => {
       <ShortCircuits />
       <ToggleAlert />
       <UserChallenge />
+      <ControlledInputs />
     </>
   );
 };

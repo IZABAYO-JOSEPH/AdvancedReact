@@ -9,6 +9,7 @@ const ShortCircuits = () => {
     <div>
         <h4>Truthy and falsy values demo</h4>
         <h5>Note that if conditions never go in jsx)</h5>
+       <h6>More understandable when you view the code</h6>
        <h2>{text || 'default Value'}</h2>
        {!text && (
             <div>
@@ -18,7 +19,7 @@ const ShortCircuits = () => {
         )
        }
        {user && <SomeComponent name={user.name} />}
-       <h2 style={{margin:'1rem 0'}}>Ternary operator</h2>
+       <h6 style={{margin:'1rem 0'}}>Ternary operator demo: pls check the code</h6>
        <button className="btn">{isEditing?'Edit':'Add'}</button>
        </div>
   )
