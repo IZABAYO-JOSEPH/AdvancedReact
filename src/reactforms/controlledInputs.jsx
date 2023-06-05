@@ -25,7 +25,7 @@ const handleSubmit = (e)=>{
        <label htmlFor='email' className='form-label'>Email</label>
        <input type="email" id="email" className='form-input'value={email} onChange={(e)=>setEmail(e.target.value)}></input>
        </div>
-    <button type='button' className='btn btn-block'>Submit</button>
+    <button type='submit' className='btn btn-block'>Submit</button>
     </form>
   )
 }

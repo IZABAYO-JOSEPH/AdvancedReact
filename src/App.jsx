@@ -8,8 +8,9 @@ import FetchData from "./useeffecthook/fetchdata";
 import MultiplReturnsFetchData from "./useeffecthook/multiplReturnsFetchData";
 import ShortCircuits from "./usestate/short_circuits";
 import ToggleAlert from "./usestate/toggleAlert";
-import UserChallenge from "./usestate/userChallenge";
+import UserChallenge from "./usestate/useChallenge";
 import ControlledInputs from "./reactforms/controlledInputs";
+import FrmUserChallenge from "./reactforms/userChallenge";
 const App = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const App = () => {
       <ToggleAlert />
       <UserChallenge />
       <ControlledInputs />
+      <FrmUserChallenge />
     </>
   );
 };
