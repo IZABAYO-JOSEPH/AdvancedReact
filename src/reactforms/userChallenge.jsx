@@ -14,6 +14,11 @@ const UserChallenge = () => {
     console.log(UpdatedUsers)
     setName("");
   };
+  const removeUser = (id)=>{
+    const result  = users.filter((user)=>user.id !== id)
+      setUsers(result)
+    
+  }
   return (
     <div>
       <form className="form" onSubmit={handleSubmit}>
@@ -41,6 +46,7 @@ const UserChallenge = () => {
         return (
           <div key={user.id}>
             <h4>{user.name}</h4>
+            <button onClick={()=>removeUser(user.id)} className="btn">remove</button>
           </div>
         );
       })}
