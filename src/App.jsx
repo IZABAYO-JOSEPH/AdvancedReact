@@ -11,6 +11,7 @@ import ToggleAlert from "./usestate/toggleAlert";
 import UserChallenge from "./usestate/useChallenge";
 import ControlledInputs from "./reactforms/controlledInputs";
 import FrmUserChallenge from "./reactforms/userChallenge";
+import MultipleInput from "./reactforms/multipleInputs";
 const App = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const App = () => {
       <UserChallenge />
       <ControlledInputs />
       <FrmUserChallenge />
+      <MultipleInput/>
     </>
   );
 };
