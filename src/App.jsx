@@ -12,6 +12,7 @@ import UserChallenge from "./usestate/useChallenge";
 import ControlledInputs from "./reactforms/controlledInputs";
 import FrmUserChallenge from "./reactforms/userChallenge";
 import MultipleInput from "./reactforms/multipleInputs";
+import CheckBox from "./reactforms/checkBox";
 const App = () => {
   return (
     <>
@@ -28,6 +29,7 @@ const App = () => {
       <ControlledInputs />
       <FrmUserChallenge />
       <MultipleInput/>
+      <CheckBox />
     </>
   );
 };
