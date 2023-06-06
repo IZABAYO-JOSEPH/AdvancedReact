@@ -13,6 +13,7 @@ import ControlledInputs from "./reactforms/controlledInputs";
 import FrmUserChallenge from "./reactforms/userChallenge";
 import MultipleInput from "./reactforms/multipleInputs";
 import CheckBox from "./reactforms/checkBox";
+import UncontrolledInputs from "./reactforms/formDataAPI";
 const App = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const App = () => {
       <FrmUserChallenge />
       <MultipleInput/>
       <CheckBox />
+      <UncontrolledInputs />
     </>
   );
 };
