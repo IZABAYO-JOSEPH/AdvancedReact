@@ -14,6 +14,7 @@ import FrmUserChallenge from "./reactforms/userChallenge";
 import MultipleInput from "./reactforms/multipleInputs";
 import CheckBox from "./reactforms/checkBox";
 import UncontrolledInputs from "./reactforms/formDataAPI";
+import ToggleExample from "./customHooks/toggleExample";
 const App = () => {
   return (
     <>
@@ -32,6 +33,7 @@ const App = () => {
       <MultipleInput/>
       <CheckBox />
       <UncontrolledInputs />
+      <ToggleExample />
     </>
   );
 };
