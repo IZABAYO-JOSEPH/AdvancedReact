@@ -1,7 +1,7 @@
 import React from 'react'
 import UserContainer from './userContainer'
 
-const NavLinks = ({user,logout}) => {
+const NavLinks = () => {
   return (
     <div className="nav-container">
         <ul className="nav-links">
@@ -15,7 +15,7 @@ const NavLinks = ({user,logout}) => {
                 <a href='#'>Contact</a>
             </li>
         </ul>
-        <UserContainer user ={user} logout = {logout}/>
+        <UserContainer />
     </div>
   )
 }
