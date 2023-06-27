@@ -1,9 +1,8 @@
 import React from 'react'
-import { useContext } from 'react'
-import { NavBarContext } from './navbar'
+import { useContextHook } from './navbar'
 
 const UserContainer = () => {
-const {user,logout} = useContext(NavBarContext)
+const {user,logout} = useContextHook()
   return (
     <div className='user-container'>
       <p>Hello, {user.name}</p>
