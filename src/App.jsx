@@ -15,6 +15,8 @@ import MultipleInput from "./reactforms/multipleInputs";
 import CheckBox from "./reactforms/checkBox";
 import UncontrolledInputs from "./reactforms/formDataAPI";
 import ToggleExample from "./customHooks/toggleExample";
+import CustomHookFetchData from "./customHooks/customHookFetch";
+import Navbar from "./contextapi/navbar";
 const App = () => {
   return (
     <>
@@ -34,6 +36,8 @@ const App = () => {
       <CheckBox />
       <UncontrolledInputs />
       <ToggleExample />
+      <CustomHookFetchData />
+      <Navbar />
     </>
   );
 };
