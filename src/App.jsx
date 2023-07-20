@@ -17,6 +17,7 @@ import UncontrolledInputs from "./reactforms/formDataAPI";
 import ToggleExample from "./customHooks/toggleExample";
 import CustomHookFetchData from "./customHooks/customHookFetch";
 import Navbar from "./contextapi/navbar";
+import ReducerDemo from "./usereducerhook/UseReducer";
 const App = () => {
   return (
     <>
@@ -38,6 +39,7 @@ const App = () => {
       <ToggleExample />
       <CustomHookFetchData />
       <Navbar />
+      <ReducerDemo />
     </>
   );
 };
